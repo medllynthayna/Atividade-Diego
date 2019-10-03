@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylo.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd">
+            <div class="conteiner-fluid">
+                <h1>Estátisicas Jogadores</h1> 
+            </div>
+        </nav>
+        
+        <div class="form-row">
+            <div class="form-group col-md-5">
+                <label for="">Idade do Jogador</label>
+                <input type="text" class="form-control" id="idade"  placeholder="Idade">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputPassword4">Peso</label>
+                <input type="text" class="form-control" id="peso" placeholder="Kg">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputPassword4">Altura</label>
+                <input type="text" class="form-control" id="altura" placeholder="Altura">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <button id="cadastrar" class="btn btn-outline-primary" >Calcular</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <table   class="table table-bordered" id="tabela">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Menores de Idade</th>
+                    <th>Média de Idade</th>
+                    <th>Média de Altura</th>
+                    <th>Porcentagem Kg(>80Kg)</th>
+                    <th>resultado</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+                
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="js\script.js"></script>
+</body>
+</html>
